@@ -1,4 +1,8 @@
 /* global styles  */
+html {
+  font-size: 62.5%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,10 +11,25 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   color: #616161;
+  font-size: 1.6rem;
 }
 
 h1, h2, h3 {
   color: black;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+
+}
+
+h3 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
 }
 
 .wrapper, section.projects, footer .copyright {
@@ -27,6 +46,8 @@ button {
   border-radius: 5px;
   border: none;
   font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 12px;
 }
 
 /* header styles */
@@ -41,10 +62,12 @@ img {
 
 nav {
   float: right;
+  font-size: 2rem;
 }
 
 nav ul {
   list-style: none;
+  overflow: auto;
 }
 
 nav ul li {
