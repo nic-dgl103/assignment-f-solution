@@ -75,7 +75,8 @@ nav ul li {
   margin: 24px 24px;
 }
 
-nav ul li:last-child {
+nav ul li:last-child {  
+  /*this is a special pseudo-class that selects the last items in the list: https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child */
   margin: 24px 0 24px 24px;
 }
 
